@@ -12,7 +12,6 @@ Baixe o arquivo **`pdbdb_investimentos_produto_cdb.sqlite`** deste repositório.
 
 Você pode:  
 - **Clonar o repositório com Git**:
-  ```
 - **Ou clicar em Download** direto no arquivo no GitHub.
 
 ---
