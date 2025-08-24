@@ -8,13 +8,10 @@ O candidato deverá usar este banco como **fonte de dados** para criar dimensõe
 
 ## **🔹 1. Download do arquivo**
 
-Baixe o arquivo **`etl_cdb_broker_test_v3_reduced.sqlite`** deste repositório.  
+Baixe o arquivo **`pdbdb_investimentos_produto_cdb.sqlite`** deste repositório.  
 
 Você pode:  
 - **Clonar o repositório com Git**:
-  ```bash
-  git clone https://github.com/<seu-repo>/teste-etl.git
-  cd teste-etl
   ```
 - **Ou clicar em Download** direto no arquivo no GitHub.
 
@@ -25,7 +22,7 @@ Você pode:
 1. Abra o **DBeaver**.  
 2. Clique em **Database → New Database Connection**.  
 3. Procure por **SQLite** e clique em **Next**.  
-4. Em **Database file**, selecione o arquivo **`etl_cdb_broker_test_v3_reduced.sqlite`** que você baixou.  
+4. Em **Database file**, selecione o arquivo **`pdbdb_investimentos_produto_cdb.sqlite`** que você baixou.  
 5. Clique em **Finish**.  
 
 Agora você pode navegar pelas tabelas (`src_*` e `dwh_dim_tempo`) e executar queries SQL diretamente.
@@ -42,7 +39,7 @@ Se preferir rodar o SQLite no navegador:
    ```
 2. Rode o comando apontando para o arquivo:  
    ```bash
-   sqlite_web etl_cdb_broker_test_v3_reduced.sqlite
+   sqlite_web pdbdb_investimentos_produto_cdb.sqlite
    ```
 3. Abra no navegador o endereço informado (normalmente **http://127.0.0.1:8080**).  
 
