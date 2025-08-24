@@ -1,10 +1,10 @@
-📘 README — Teste Técnico Engenheiro de Dados (ETL & Analytics)
+📘 # README — Teste Técnico Engenheiro de Dados (ETL & Analytics)
 
 Este repositório contém um banco de dados SQLite pré-populado com tabelas de entrada (SRC) e uma dimensão de tempo (dwh_dim_tempo).
 
 O candidato deverá usar este banco como fonte de dados para criar dimensões derivadas e tabelas fato conforme o enunciado do teste.
 
-🔹 1. Download do arquivo
+🔹 # 1. Download do arquivo
 
 Baixe o arquivo etl_cdb_broker_test_v3_reduced.sqlite deste repositório.
 Você pode:
@@ -17,7 +17,7 @@ cd teste-etl
 
 Ou clicar em Download direto no arquivo no GitHub.
 
-🔹 2. Abrindo o arquivo no DBeaver (recomendado)
+🔹 # 2. Abrindo o arquivo no DBeaver (recomendado)
 
 Abra o DBeaver.
 
